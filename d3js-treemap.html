@@ -41,7 +41,7 @@ d3.json("https://raw.githubusercontent.com/js-tips/js-tips.github.io/main/data_d
 
   // prepare a color scale
   var color = d3.scaleOrdinal()
-    .domain(["Continious Delivery", "boss2", "boss3"])
+    .domain(["1", "2", "3"])
     .range([ "#402D54", "#D18975", "#8FD175"])
 
   // And a opacity scale
@@ -60,7 +60,7 @@ d3.json("https://raw.githubusercontent.com/js-tips/js-tips.github.io/main/data_d
       .attr('width', function (d) { return d.x1 - d.x0; })
       .attr('height', function (d) { return d.y1 - d.y0; })
       .style("stroke", "black")
-      .style("fill", function(d){ return color(d.parent.data.name)} )
+      .style("fill", function(d){ return color(d.parent.data.value)} )
       .style("opacity", function(d){ return opacity(d.data.value)})
 
   // and to add the text labels
@@ -97,14 +97,14 @@ d3.json("https://raw.githubusercontent.com/js-tips/js-tips.github.io/main/data_d
       .attr("y", function(d){ return d.y0+21})
       .text(function(d){ return d.data.name })
       .attr("font-size", "19px")
-      .attr("fill",  function(d){ return color(d.data.name)} )
+      .attr("fill",  function(d){ return color(1)} )
 
   // Add title for the 3 groups
   svg
     .append("text")
       .attr("x", 0)
       .attr("y", 14)    // +20 to adjust position (lower)
-      .text("Three group leaders and 14 employees")
+      .text("Continious Delivery")
       .attr("font-size", "19px")
       .attr("fill",  "grey" )
 
