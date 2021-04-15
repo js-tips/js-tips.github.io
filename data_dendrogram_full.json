@@ -1,28 +1,28 @@
 {
   "children":[
     {
-      "name":"Continious Delivery",
+      "name":"Pipeline CI",
       "children":[
         {
-          "name":"Pipeline CI",
+          "name":"Borj PDT",
           "group":"A",
           "value":28,
           "colname":"level3"
         },
         {
-          "name":"mister_b",
+          "name":"CIB",
           "group":"A",
           "value":19,
           "colname":"level3"
         },
         {
-          "name":"mister_c",
+          "name":"Ebanking",
           "group":"C",
           "value":18,
           "colname":"level3"
         },
         {
-          "name":"mister_d",
+          "name":"Vente",
           "group":"C",
           "value":19,
           "colname":"level3"
