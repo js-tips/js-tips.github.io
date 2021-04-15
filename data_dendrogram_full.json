@@ -23,7 +23,8 @@
           "value": 1,
           "group": "good"
         }
-      ]
+      ],
+      "colname":"level1"
     },
     {
       "name":"boss2",
