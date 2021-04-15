@@ -5,30 +5,21 @@
       "children":[
         {
           "name":"Borj PDT",
-          "group":"A",
-          "value":28,
-          "colname":"level3"
+          "value":1
         },
         {
           "name":"CIB",
-          "group":"A",
-          "value":19,
-          "colname":"level3"
+          "value":1
         },
         {
           "name":"Ebanking",
-          "group":"C",
-          "value":18,
-          "colname":"level3"
+          "value":1
         },
         {
           "name":"Vente",
-          "group":"C",
-          "value":19,
-          "colname":"level3"
+          "value":1
         }
-      ],
-      "colname":"level2"
+      ]
     },
     {
       "name":"boss2",
