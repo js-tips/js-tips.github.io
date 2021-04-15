@@ -4,7 +4,7 @@
       "name":"Continious Delivery",
       "children":[
         {
-          "name":"mister_a",
+          "name":"Pipeline CI",
           "group":"A",
           "value":28,
           "colname":"level3"
