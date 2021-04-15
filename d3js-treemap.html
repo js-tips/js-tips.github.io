@@ -41,7 +41,7 @@ d3.json("https://raw.githubusercontent.com/js-tips/js-tips.github.io/main/data_d
 
   // prepare a color scale
   var color = d3.scaleOrdinal()
-    .domain(["1", "2", "3"])
+    .domain([1, 2, 3])
     .range([ "#402D54", "#D18975", "#8FD175"])
 
   // And a opacity scale
@@ -60,7 +60,7 @@ d3.json("https://raw.githubusercontent.com/js-tips/js-tips.github.io/main/data_d
       .attr('width', function (d) { return d.x1 - d.x0; })
       .attr('height', function (d) { return d.y1 - d.y0; })
       .style("stroke", "black")
-      .style("fill", function(d){ console.log(d.parent.data.value); return color(d.parent.data.value)} )
+      .style("fill", function(d){ console.log(d); return color(d.parent.data.value)} )
       .style("opacity", function(d){ return opacity(d.data.value)})
 
   // and to add the text labels
