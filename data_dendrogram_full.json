@@ -5,19 +5,23 @@
       "children":[
         {
           "name":"Borj PDT",
-          "value":1
+          "value":1,
+          "group": "good"
         },
         {
           "name":"CIB",
-          "value":1
+          "value": 1,
+          "group": "good"
         },
         {
           "name":"Ebanking",
-          "value":1
+          "value": 1,
+          "group": "good"
         },
         {
           "name":"Vente",
-          "value":1
+          "value": 1,
+          "group": "good"
         }
       ]
     },
@@ -26,25 +30,25 @@
       "children":[
         {
           "name":"mister_e",
-          "group":"C",
-          "value":14,
+          "group":"good",
+          "value": 14,
           "colname":"level3"
         },
         {
           "name":"mister_f",
-          "group":"A",
+          "group":"good",
           "value":11,
           "colname":"level3"
         },
         {
           "name":"mister_g",
-          "group":"B",
+          "group":"good",
           "value":15,
           "colname":"level3"
         },
         {
           "name":"mister_h",
-          "group":"B",
+          "group":"good",
           "value":16,
           "colname":"level3"
         }
@@ -56,37 +60,37 @@
       "children":[
         {
           "name":"mister_i",
-          "group":"B",
+          "group":"good",
           "value":10,
           "colname":"level3"
         },
         {
           "name":"mister_j",
-          "group":"A",
+          "group":"good",
           "value":13,
           "colname":"level3"
         },
         {
           "name":"mister_k",
-          "group":"A",
+          "group":"good",
           "value":13,
           "colname":"level3"
         },
         {
           "name":"mister_l",
-          "group":"D",
+          "group":"good",
           "value":25,
           "colname":"level3"
         },
         {
           "name":"mister_m",
-          "group":"D",
+          "group":"good",
           "value":16,
           "colname":"level3"
         },
         {
           "name":"mister_n",
-          "group":"D",
+          "group":"good",
           "value":28,
           "colname":"level3"
         }
@@ -94,5 +98,5 @@
       "colname":"level2"
     }
   ],
-  "name":"CEO"
+  "name":"Continious Delivery"
 }
